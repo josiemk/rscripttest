@@ -1,0 +1,19 @@
+---
+title: "CW1"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r}
+#read data into R
+bush=read.csv("/Users/josie/Desktop/Stats/Bushmeat.csv")
+#attach data set to avoid $$
+attach(bush)
+str(bush)
+plot(Number~Hunting)
+```
+
+
+this is 5 plus 5
